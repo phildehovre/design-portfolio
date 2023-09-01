@@ -1,0 +1,36 @@
+
+#slogan-ctn {
+    
+    /* Add any additional styling you need for the container */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%; /* Set the height to your desired value */
+    text-align: center; /* Center-align text content */
+    color: white; /* Text color */
+    font-size: 24px; /* Text font size */
+    padding: 20px; /* Add padding to your container as needed */
+}
+
+.slogan {
+    width: fit-content;
+    color: white;
+    font-size: 7em;
+    z-index: 1;
+    text-align: left;
+    padding: 0 10px;
+    margin: 0;
+    
+    &.second {
+         color: transparent;
+         -webkit-background-clip: text;
+         background-clip: text;
+         background-image: url('src/assets/flower-bkg_bright.png');
+         background-size: cover; /* Adjust as needed to cover the container */
+         background-attachment: fixed; /* Make the background fixed */
+        font-size: 7.55em;
+        padding: 0 10px;
+    }
+}
